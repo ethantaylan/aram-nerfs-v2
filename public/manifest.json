@@ -1,6 +1,6 @@
 {
-  "name": "Am I Buffed? - League of Legends ARAM Balance Tracker",
-  "short_name": "Am I Buffed?",
+  "name": "Am I Nerfed? - League of Legends ARAM Balance Tracker",
+  "short_name": "Am I Nerfed?",
   "description": "Check League of Legends ARAM balance changes for all champions",
   "start_url": "/",
   "display": "standalone",

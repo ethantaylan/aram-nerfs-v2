@@ -6,9 +6,9 @@ import { Moon, Sun } from "lucide-react";
 // SEO Helper function to update page title dynamically
 const updatePageTitle = (championName?: string, patch?: string) => {
   if (championName) {
-    document.title = `${championName} ARAM Balance - Am I Buffed? | Patch ${patch}`;
+    document.title = `${championName} ARAM Balance - Am I Nerfed? | Patch ${patch}`;
   } else {
-    document.title = "Am I Buffed? - League of Legends ARAM Balance Changes Tracker";
+    document.title = "Am I Nerfed? - League of Legends ARAM Balance Changes Tracker";
   }
 };
 
@@ -136,7 +136,7 @@ export default function App() {
           <h1 className={`text-5xl md:text-6xl font-bold mb-6 tracking-tight uppercase animate-fadeInUp transition-colors duration-500 ${
             isDarkMode ? "text-white" : "text-gray-900"
           }`}>
-            Am I buffed?
+            Am I nerfed?
           </h1>
 
           <div className="relative max-w-2xl mx-auto animate-fadeIn">
@@ -311,7 +311,7 @@ export default function App() {
                 <p className={`font-semibold tracking-wide text-sm transition-colors duration-500 ${
                   isDarkMode ? "text-white" : "text-gray-900"
                 }`}>
-                  AM I BUFFED?
+                  AM I NERFED?
                 </p>
                 <p className={`text-xs transition-colors duration-500 ${
                   isDarkMode ? "text-gray-400" : "text-gray-600"
@@ -322,7 +322,7 @@ export default function App() {
             <div className={`text-xs text-center animate-fadeInUp transition-colors duration-500 ${
               isDarkMode ? "text-gray-400" : "text-gray-600"
             }`}>
-              <p>&copy; 2025 AM I BUFFED?. All rights reserved.</p>
+              <p>&copy; 2025 AM I NERFED?. All rights reserved.</p>
               <p className="mt-1">Data from Riot Games</p>
             </div>
 
