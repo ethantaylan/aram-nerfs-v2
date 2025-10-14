@@ -1,0 +1,1013 @@
+{
+  "patch": "14.24",
+  "champions": [
+    {
+      "name": "Aatrox",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Tenacity increased by 20%."
+    },
+    {
+      "name": "Ahri",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Akali",
+      "damageDealt": "105%",
+      "damageTaken": "90%",
+      "passiveOther": "Energy regeneration increased by 20%. Tenacity increased by 20%"
+    },
+    {
+      "name": "Akshan",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Going Rogue: Scoundrel duration reduced to 10 seconds."
+    },
+    {
+      "name": "Alistar",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": "Healing done reduced by 20%."
+    },
+    {
+      "name": "Ambessa",
+      "damageDealt": "100%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Amumu",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Anivia",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Annie",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": "Shielding done reduced by 10%."
+    },
+    {
+      "name": "Aphelios",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Ashe",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Total attack speed increased by 2.5%. W Cooldown : Cooldown increased to 18 / 17.5 / 17 / 16.5 / 16 seconds. R Cooldown: Cooldown increased to 110 / 90 / 70 seconds."
+    },
+    {
+      "name": "Aurelion Sol",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": "E ability has increased cooldown"
+    },
+    {
+      "name": "Azir",
+      "damageDealt": "100%",
+      "damageTaken": "95%",
+      "passiveOther": "Ability haste increased by 20. Total attack speed increased by 2.5%. Azir will start the game with one point already ranked in Arise!, allowing him to allocate the other two to his other abilities. Attack Speed Scaling: +0.025%, Ability Haste: +20%"
+    },
+    {
+      "name": "Bard",
+      "damageDealt": "115%",
+      "damageTaken": "85%",
+      "passiveOther": "Healing done increased by 20%. Traveler's Call: Chime spawn rate changed to every 30 seconds instead of 50 seconds (initial spawn unchanged)."
+    },
+    {
+      "name": "Bel'Veth",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Death in Lavender: She gains 2 stacks from nearby siege minion deaths. Endless Banquet: Enhanced Void Corals spawn from nearby turrets being destroyed."
+    },
+    {
+      "name": "Blitzcrank",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Brand",
+      "damageDealt": "95%",
+      "damageTaken": "110%",
+      "passiveOther": "Ability haste reduced by 10."
+    },
+    {
+      "name": "Braum",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Briar",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Healing done increased by 20%."
+    },
+    {
+      "name": "Caitlyn",
+      "damageDealt": "100%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Camille",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Shielding done increased by 10%. Healing done increased by 20%. Ability haste increased by 10."
+    },
+    {
+      "name": "Cassiopeia",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Cho'Gath",
+      "damageDealt": "100%",
+      "damageTaken": "110%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Corki",
+      "damageDealt": "100%",
+      "damageTaken": "90%",
+      "passiveOther": "Hextech Munitions: First package spawn time reduced to 5:00. Package cooldown reduced to 150 seconds."
+    },
+    {
+      "name": "Darius",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Diana",
+      "damageDealt": "102%",
+      "damageTaken": "98%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Dr. Mundo",
+      "damageDealt": "90%",
+      "damageTaken": "105%",
+      "passiveOther": "Healing done decresed by 10%"
+    },
+    {
+      "name": "Draven",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Ekko",
+      "damageDealt": "110%",
+      "damageTaken": "100%",
+      "passiveOther": "Tenacity increased by 20%."
+    },
+    {
+      "name": "Elise",
+      "damageDealt": "105%",
+      "damageTaken": "90%",
+      "passiveOther": "Tenacity increased by 20%."
+    },
+    {
+      "name": "Evelynn",
+      "damageDealt": "110%",
+      "damageTaken": "90%",
+      "passiveOther": "Tenacity increased by 20%."
+    },
+    {
+      "name": "Ezreal",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Fiddlesticks",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Fiora",
+      "damageDealt": "100%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Fizz",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Tenacity increased by 20%."
+    },
+    {
+      "name": "Galio",
+      "damageDealt": "90%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Gangplank",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Parrrley: New Effect: Passively gains 1 Silver Serpent Silver Serpent per second."
+    },
+    {
+      "name": "Garen",
+      "damageDealt": "100%",
+      "damageTaken": "95%",
+      "passiveOther": "Courage: Bonus resistances on-kill changed to 0.5. Number of enemy kills needed to reach the maximum amount changed to 60."
+    },
+    {
+      "name": "Gnar",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Total attack speed increased by 2.5%."
+    },
+    {
+      "name": "Gragas",
+      "damageDealt": "100%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Graves",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Gwen",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Hecarim",
+      "damageDealt": "105%",
+      "damageTaken": "90%",
+      "passiveOther": "Healing done increased by 20%. Ability haste increased by 10."
+    },
+    {
+      "name": "Heimerdinger",
+      "damageDealt": "90%",
+      "damageTaken": "110%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Hwei",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Illaoi",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": "Healing done decreased by 20%."
+    },
+    {
+      "name": "Irelia",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": "Ability hasted increased by 20."
+    },
+    {
+      "name": "Ivern",
+      "damageDealt": "95%",
+      "damageTaken": "100%",
+      "passiveOther": "Shielding done reduced by 20%."
+    },
+    {
+      "name": "Janna",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": "Healing done reduced by 10%. Shielding done reduced by 5%."
+    },
+    {
+      "name": "Jarvan IV",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Jax",
+      "damageDealt": "105%",
+      "damageTaken": "97%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Jayce",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Jhin",
+      "damageDealt": "90%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Jinx",
+      "damageDealt": "90%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "K'Sante",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Kai'Sa",
+      "damageDealt": "100%",
+      "damageTaken": "95%",
+      "passiveOther": "Total attack speed increased by 2.5%"
+    },
+    {
+      "name": "Kalista",
+      "damageDealt": "110%",
+      "damageTaken": "90%",
+      "passiveOther": "Total attack speed increased by 2.5%"
+    },
+    {
+      "name": "Karma",
+      "damageDealt": "98%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Karthus",
+      "damageDealt": "90%",
+      "damageTaken": "105%",
+      "passiveOther": "Death Defied duration changed to 5 seconds."
+    },
+    {
+      "name": "Kassadin",
+      "damageDealt": "100%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Katarina",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": "Tenacity increased by 20%. Ability haste increased by 10."
+    },
+    {
+      "name": "Kayle",
+      "damageDealt": "95%",
+      "damageTaken": "110%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Kayn",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": "Healing done reduced by 20%. Tenacity increased by 20%. The Darkin Scythe transformation no longer restores full health and mana."
+    },
+    {
+      "name": "Kennen",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Energy regeneration increased by 20%."
+    },
+    {
+      "name": "Kha'Zix",
+      "damageDealt": "110%",
+      "damageTaken": "90%",
+      "passiveOther": "Healing done increased by 20%. Tenacity increased by 20%."
+    },
+    {
+      "name": "Kindred",
+      "damageDealt": "110%",
+      "damageTaken": "90%",
+      "passiveOther": "Total attack speed increased by 2.5%."
+    },
+    {
+      "name": "Kled",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Kog'Maw",
+      "damageDealt": "88%",
+      "damageTaken": "110%",
+      "passiveOther": ""
+    },
+    {
+      "name": "LeBlanc",
+      "damageDealt": "110%",
+      "damageTaken": "90%",
+      "passiveOther": "Ability haste increased by 20. Tenacity increased by 20%."
+    },
+    {
+      "name": "Lee Sin",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Shielding done increased by 20%. Healing done increased by 20%. Energy regeneration increased by 20%."
+    },
+    {
+      "name": "Leona",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Lillia",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": "E ability has increased cooldown"
+    },
+    {
+      "name": "Lissandra",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Lucian",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Tenacity increased by 20%. Ability haste increased by 10."
+    },
+    {
+      "name": "Lulu",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Lux",
+      "damageDealt": "85%",
+      "damageTaken": "110%",
+      "passiveOther": "Shielding done reduced by 20%."
+    },
+    {
+      "name": "Malphite",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Malzahar",
+      "damageDealt": "90%",
+      "damageTaken": "110%",
+      "passiveOther": "Call of the Void deals 80% damage to minions (60% total). Void Swarm deals 80% damage to minions (60% total). Nether Grasp Null Zone deals 80% damage to minions (60% total)."
+    },
+    {
+      "name": "Maokai",
+      "damageDealt": "80%",
+      "damageTaken": "110%",
+      "passiveOther": "Healing done reduced by 20%."
+    },
+    {
+      "name": "Master Yi",
+      "damageDealt": "100%",
+      "damageTaken": "97%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Milio",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": "Shielding done reduced by 10%. Healing done reduced by 5%."
+    },
+    {
+      "name": "Miss Fortune",
+      "damageDealt": "90%",
+      "damageTaken": "110%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Mordekaiser",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Morgana",
+      "damageDealt": "95%",
+      "damageTaken": "110%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Naafiri",
+      "damageDealt": "110%",
+      "damageTaken": "100%",
+      "passiveOther": "Ability haste increased by 10."
+    },
+    {
+      "name": "Nami",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": "Healing done reduced by 5%."
+    },
+    {
+      "name": "Nasus",
+      "damageDealt": "90%",
+      "damageTaken": "105%",
+      "passiveOther": "Siphoning Strike: Per-kill stacks increased to 6. Per-large-kill stacks increased to 24."
+    },
+    {
+      "name": "Nautilus",
+      "damageDealt": "95%",
+      "damageTaken": "110%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Neeko",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Nidalee",
+      "damageDealt": "110%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Nilah",
+      "damageDealt": "97%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Nocturne",
+      "damageDealt": "110%",
+      "damageTaken": "90%",
+      "passiveOther": "Healing done increased by 20%."
+    },
+    {
+      "name": "Nunu & Willump",
+      "damageDealt": "110%",
+      "damageTaken": "90%",
+      "passiveOther": "Shielding done increased by 20%. Healing done increased by 10%. Tenacity increased by 20%."
+    },
+    {
+      "name": "Olaf",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Orianna",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Ornn",
+      "damageDealt": "90%",
+      "damageTaken": "105%",
+      "passiveOther": "Living Forge: New Effect: Forging an item puts Living Forge on a 120-second cooldown."
+    },
+    {
+      "name": "Pantheon",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Poppy",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Pyke",
+      "damageDealt": "110%",
+      "damageTaken": "95%",
+      "passiveOther": "Tenacity increased by 20%."
+    },
+    {
+      "name": "Qiyana",
+      "damageDealt": "115%",
+      "damageTaken": "90%",
+      "passiveOther": "Tenacity increased by 20%. Terrashape: Howling Abyss grants the River Element."
+    },
+    {
+      "name": "Quinn",
+      "damageDealt": "110%",
+      "damageTaken": "90%",
+      "passiveOther": "Tenacity increased by 20%. Total attack speed increased by 2.5%."
+    },
+    {
+      "name": "Rakan",
+      "damageDealt": "100%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Rammus",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Rek'Sai",
+      "damageDealt": "105%",
+      "damageTaken": "90%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Rell",
+      "damageDealt": "95%",
+      "damageTaken": "100%",
+      "passiveOther": "Shielding done reduced by 10%. Healing done reduced by 10%."
+    },
+    {
+      "name": "Renata Glasc",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": "Shielding done reduced by 20%."
+    },
+    {
+      "name": "Renekton",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": "Healing done increased by 20%."
+    },
+    {
+      "name": "Rengar",
+      "damageDealt": "105%",
+      "damageTaken": "92%",
+      "passiveOther": "Tenacity increased by 20%."
+    },
+    {
+      "name": "Riven",
+      "damageDealt": "105%",
+      "damageTaken": "92%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Rumble",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Ryze",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Samira",
+      "damageDealt": "98%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Sejuani",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Senna",
+      "damageDealt": "97%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Seraphine",
+      "damageDealt": "90%",
+      "damageTaken": "120%",
+      "passiveOther": "Shielding done reduced by 20%. Healing done reduced by 20%. Ability haste reduced by 20."
+    },
+    {
+      "name": "Sett",
+      "damageDealt": "90%",
+      "damageTaken": "110%",
+      "passiveOther": "Shielding done reduced by 10%. Healing done reduced by 10%. Ability haste reduced by 20."
+    },
+    {
+      "name": "Shaco",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Jack in the Box limited to 6 Boxes active."
+    },
+    {
+      "name": "Shen",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Shyvana",
+      "damageDealt": "100%",
+      "damageTaken": "95%",
+      "passiveOther": "Fury of the Dragonborn: Alternate Innate: Shyvana gains 1 bonus armor, 1 bonus magic resistance, and 0.05 bonus Fury regeneration whenever a siege or a canon minion dies within 1400 units range of her, or when she is healed by a health relic's area of effect on the enemy's side of the map. The minions' death does not grant increase if she is dead (but in range)."
+    },
+    {
+      "name": "Singed",
+      "damageDealt": "90%",
+      "damageTaken": "108%",
+      "passiveOther": "Bonus Movement Speed: 25% ⇒ 20%; Passive Cooldown: 8 ⇒ 10 seconds"
+    },
+    {
+      "name": "Sion",
+      "damageDealt": "90%",
+      "damageTaken": "110%",
+      "passiveOther": "Shielding done reduced by 20%. Tenacity reduced by 20%. Ability haste reduced by 20. Glory in Death life steal reduced to 50%."
+    },
+    {
+      "name": "Sivir",
+      "damageDealt": "90%",
+      "damageTaken": "105%",
+      "passiveOther": "Q cooldown increased"
+    },
+    {
+      "name": "Skarner",
+      "damageDealt": "100%",
+      "damageTaken": "105%",
+      "passiveOther": "Crystal Spires: Number of Crystal Spires spawned on the battlefield changed to five: One in each brush (with the central one being neutral) One in each team's base (below each inhibitor)"
+    },
+    {
+      "name": "Smolder",
+      "damageDealt": "100%",
+      "damageTaken": "105%",
+      "passiveOther": "Ability haste reduced by 10."
+    },
+    {
+      "name": "Sona",
+      "damageDealt": "100%",
+      "damageTaken": "110%",
+      "passiveOther": "Shielding done reduced by 15%. Healing done reduced by 15%. Ability haste reduced by 20."
+    },
+    {
+      "name": "Soraka",
+      "damageDealt": "100%",
+      "damageTaken": "97%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Swain",
+      "damageDealt": "90%",
+      "damageTaken": "115%",
+      "passiveOther": "Healing done decreased by 20%."
+    },
+    {
+      "name": "Sylas",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Syndra",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Ability haste increased by 15."
+    },
+    {
+      "name": "Tahm Kench",
+      "damageDealt": "100%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Taliyah",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Talon",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Tenacity increased by 20%."
+    },
+    {
+      "name": "Taric",
+      "damageDealt": "100%",
+      "damageTaken": "110%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Teemo",
+      "damageDealt": "90%",
+      "damageTaken": "110%",
+      "passiveOther": "Ability haste reduced by 20. Noxious Trap Deals 66% damage to minions (50% total)."
+    },
+    {
+      "name": "Thresh",
+      "damageDealt": "100%",
+      "damageTaken": "105%",
+      "passiveOther": "Damnation: Each collected soul counts as 2 from 1."
+    },
+    {
+      "name": "Tristana",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Trundle",
+      "damageDealt": "100%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Tryndamere",
+      "damageDealt": "110%",
+      "damageTaken": "90%",
+      "passiveOther": "Healing done increased by 20%."
+    },
+    {
+      "name": "Twisted Fate",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Twitch",
+      "damageDealt": "100%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Udyr",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": "Tenacity increased by 20%. Healing and shielding deacreased by 10%."
+    },
+    {
+      "name": "Urgot",
+      "damageDealt": "100%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Varus",
+      "damageDealt": "98%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Vayne",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Veigar",
+      "damageDealt": "90%",
+      "damageTaken": "110%",
+      "passiveOther": "Champion takedowns grant 3 stacks instead of 5."
+    },
+    {
+      "name": "Vel'Koz",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Vex",
+      "damageDealt": "95%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Vi",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Viego",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Viktor",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Vladimir",
+      "damageDealt": "95%",
+      "damageTaken": "105%",
+      "passiveOther": "Healing done reduced by 10%."
+    },
+    {
+      "name": "Volibear",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Warwick",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Healing done increased by 5%."
+    },
+    {
+      "name": "Wukong",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Xayah",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Total Attack Speed: +3%"
+    },
+    {
+      "name": "Xerath",
+      "damageDealt": "93%",
+      "damageTaken": "105%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Xin Zhao",
+      "damageDealt": "95%",
+      "damageTaken": "100%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Yasuo",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": "Total Attack Speed: +2.5%"
+    },
+    {
+      "name": "Yone",
+      "damageDealt": "105%",
+      "damageTaken": "97%",
+      "passiveOther": "Total Attack Speed: +2.5%"
+    },
+    {
+      "name": "Yorick",
+      "damageDealt": "100%",
+      "damageTaken": "100%",
+      "passiveOther": "Shepherd of Souls: Deaths required for a grave changed to 5 at all levels."
+    },
+    {
+      "name": "Yuumi",
+      "damageDealt": "105%",
+      "damageTaken": "100%",
+      "passiveOther": "Healing done increased by 10%."
+    },
+    {
+      "name": "Zac",
+      "damageDealt": "100%",
+      "damageTaken": "96%",
+      "passiveOther": "Healing done increased by 10%."
+    },
+    {
+      "name": "Zed",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Energy regeneration increased by 20%. Tenacity increased by 20%."
+    },
+    {
+      "name": "Zeri",
+      "damageDealt": "110%",
+      "damageTaken": "100%",
+      "passiveOther": "Burst Fire Zeri will start the game with one point already ranked in Burst Fire!, allowing her to allocate the other two to her other abilities."
+    },
+    {
+      "name": "Ziggs",
+      "damageDealt": "87%",
+      "damageTaken": "120%",
+      "passiveOther": "Ability haste reduced by 20. Short Fuse Damage to Structures reduced to 150%. Satchel Charge Tower execute threshold reduced."
+    },
+    {
+      "name": "Zilean",
+      "damageDealt": "105%",
+      "damageTaken": "95%",
+      "passiveOther": "Ability haste increased by 10."
+    },
+    {
+      "name": "Zoe",
+      "damageDealt": "110%",
+      "damageTaken": "95%",
+      "passiveOther": ""
+    },
+    {
+      "name": "Zyra",
+      "damageDealt": "90%",
+      "damageTaken": "105%",
+      "passiveOther": "Ability haste reduced by 10."
+    }
+  ]
+}
