@@ -13,7 +13,7 @@ export function Button({
   className = '',
   ...props
 }: ButtonProps) {
-  const baseStyles = 'transition-all duration-300 hover:scale-110';
+  const baseStyles = 'transition-all duration-500 hover:scale-110';
 
   const variantStyles = {
     primary: isDarkMode
