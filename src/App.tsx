@@ -35,6 +35,12 @@ export default function App() {
     const savedTheme = localStorage.getItem('isDarkMode');
     return savedTheme !== null ? JSON.parse(savedTheme) : true;
   });
+  const [showMobilePopup, setShowMobilePopup] = useState(() => {
+    // Show popup only on mobile and if not dismissed before
+    const dismissed = localStorage.getItem('mobilePopupDismissed');
+    const isMobile = window.innerWidth < 768;
+    return isMobile && !dismissed;
+  });
   const searchInputRef = useRef<HTMLInputElement>(null);
   const data: ChampionData = championData;
 
@@ -80,6 +86,11 @@ export default function App() {
     localStorage.setItem('isDarkMode', JSON.stringify(isDarkMode));
   }, [isDarkMode]);
 
+  const closeMobilePopup = () => {
+    setShowMobilePopup(false);
+    localStorage.setItem('mobilePopupDismissed', 'true');
+  };
+
   const getChampionImage = (championName: string) => {
     const formattedName = championName.replace(/['\s]/g, "").replace("&", "");
     return `https://ddragon.leagueoflegends.com/cdn/15.20.1/img/champion/${formattedName}.png`;
@@ -108,10 +119,10 @@ export default function App() {
       /> */}
 
       {/* App Description */}
-      <div className={`absolute top-10 left-1/2 transform -translate-x-1/2 z-40 max-w-md text-center transition-colors duration-500 ${
+      <div className={`absolute top-6 md:top-10 left-1/2 transform -translate-x-1/2 z-40 w-[90%] max-w-sm sm:max-w-md md:max-w-lg text-center px-3 sm:px-4 transition-colors duration-500 ${
         isDarkMode ? "text-gray-400" : "text-gray-600"
       }`}>
-        <p className="text-xs leading-relaxed">
+        <p className="text-xs sm:text-sm md:text-base leading-relaxed">
           Check League of Legends ARAM balance changes for champions - damage dealt, damage taken, and special modifications.
         </p>
       </div>
@@ -128,6 +139,33 @@ export default function App() {
       >
         {isDarkMode ? <Sun className="w-6 h-6" /> : <Moon className="w-6 h-6" />}
       </button>
+
+      {/* Mobile Desktop Optimization Popup */}
+      {showMobilePopup && (
+        <div className="fixed top-4 left-4 right-4 z-50 md:hidden animate-fadeIn">
+          <div className="bg-black/90 backdrop-blur-lg rounded-xl p-4 border border-white/20 shadow-lg">
+            <div className="flex items-start justify-between gap-3">
+              <div className="flex-1">
+                <p className="text-white text-sm font-medium mb-1">
+                  Desktop Optimized
+                </p>
+                <p className="text-gray-300 text-xs leading-relaxed">
+                  This app is optimized for desktop experience for better champion browsing.
+                </p>
+              </div>
+              <button
+                onClick={closeMobilePopup}
+                className="flex-shrink-0 p-1 text-gray-400 hover:text-white transition-colors duration-200"
+                aria-label="Close popup"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center justify-center px-6 flex-1 py-8">
@@ -274,7 +312,7 @@ export default function App() {
               <div className={`rounded-lg p-3 border transition-all duration-500 hover:scale-[1.02] animate-fadeIn ${
                 isDarkMode
                   ? "bg-white/5 border-white/10 hover:bg-white/10"
-                  : "bg-gray-50 hover:bg-gray-100"
+                  : "bg-gray-50 border-gray-200 hover:bg-gray-100"
               }`} style={{ animationDelay: '0.3s' }}>
                 <p className={`text-xs mb-1 transition-colors duration-500 ${
                   isDarkMode ? "text-gray-400" : "text-gray-600"
@@ -304,10 +342,10 @@ export default function App() {
       <footer className={`relative z-10 border-t py-4 mt-auto transition-colors duration-500 backdrop-blur-xl ${
         isDarkMode ? "bg-black/80 border-white/10" : "bg-gray-50/80 border-gray-200"
       }`}>
-        <div className="container mx-auto px-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3 animate-slideInLeft">
-              <div>
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0">
+            <div className="flex items-center gap-3 animate-slideInLeft order-1 sm:order-none">
+              <div className="text-center sm:text-left">
                 <p className={`font-semibold tracking-wide text-sm transition-colors duration-500 ${
                   isDarkMode ? "text-white" : "text-gray-900"
                 }`}>
@@ -319,14 +357,14 @@ export default function App() {
               </div>
             </div>
 
-            <div className={`text-xs text-center animate-fadeInUp transition-colors duration-500 ${
+            <div className={`text-xs text-center animate-fadeInUp transition-colors duration-500 order-3 sm:order-none ${
               isDarkMode ? "text-gray-400" : "text-gray-600"
             }`}>
-              <p>&copy; 2025 AM I NERFED?. All rights reserved.</p>
+              <p className="whitespace-nowrap">&copy; 2025 AM I NERFED?. All rights reserved.</p>
               <p className="mt-1">Data from Riot Games</p>
             </div>
 
-            <div className="flex items-center gap-4 animate-slideInRight">
+            <div className="flex items-center gap-4 animate-slideInRight order-2 sm:order-none">
               <a
                 href="https://github.com/ethantaylan/"
                 target="_blank"
