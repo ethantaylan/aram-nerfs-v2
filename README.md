@@ -1,50 +1,146 @@
-<img src="./src/assets/logo.png" alt="drawing" width="200"/>
+# AM I NERFED? ⚔️
 
-# Fastplate - React Template
+> **Instantly check ARAM balance adjustments for any League of Legends champion**
 
-Fastplate is a powerful React template designed to accelerate your web development projects.
-It comes packed with essential technologies listed below:
+A sleek, fast, and mobile-friendly web application that helps League of Legends players quickly discover champion-specific balance changes in ARAM mode. No more guessing if your favorite champion has hidden nerfs or buffs!
 
-- React,
-- React Router,
-- TypeScript,
-- Tailwind CSS,
-- DaisyUI,
-- Axios,
-- Zod,
-- Zustand
+## ✨ Features
 
-Providing you with a solid foundation to build modern, responsive, and feature-rich web applications.
+- **⚡ Instant Search** - Lightning-fast champion lookup with real-time filtering
+- **📊 Detailed Stats** - View damage dealt, damage taken, healing, shielding, ability haste, mana regen, energy regen, and tenacity adjustments
+- **🎨 Beautiful UI** - Modern, clean interface with smooth animations and transitions
+- **🌓 Dark/Light Mode** - Toggle between themes with persistent preferences
+- **📱 Mobile Optimized** - Fully responsive design that works perfectly on all devices
+- **🔍 Smart Search** - Type any champion name and get instant results
+- **🎯 SEO Optimized** - Dynamic page titles and metadata for better discoverability
+- **♿ Accessible** - Built with accessibility in mind using semantic HTML and ARIA labels
 
-## Features
+## 🚀 Quick Start
 
-- **React & React Router:** Leverage the power of React's component-driven architecture and utilize React Router for smooth navigation and routing, ensuring a seamless user experience.
+### Prerequisites
 
-- **TypeScript:** Embrace the benefits of static typing with TypeScript, catching errors early and improving code maintainability.
+- Node.js (v16 or higher)
+- npm or yarn
 
-- **Tailwind CSS & DaisyUI:** Effortlessly design stunning user interfaces with Tailwind CSS, enriched by the intuitive components of DaisyUI. Create responsive layouts and visually appealing designs with ease.
+### Installation
 
-- **Axios:** Simplify API communication with Axios, making it easier to interact with your backend services.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ethantaylan/aram-nerfs-v2.git
+   cd aram-nerfs-v2
+   ```
 
-- **Zod & Zustand:** Use Zod for schema validation and Zustand for state management, ensuring your application is robust and maintainable.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Getting Started
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-Follow these steps to get started with Fastplate:
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to see the app in action!
 
-1. **Clone the Repository:** Clone or fork this repository to your local machine.
+## 🛠️ Tech Stack
 
-`git clone https://github.com/yourusername/Fastplate.git`
+- **[React 18](https://react.dev/)** - Modern React with hooks
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe development
+- **[Vite](https://vitejs.dev/)** - Next-generation frontend tooling
+- **[Tailwind CSS 4](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[Lucide React](https://lucide.dev/)** - Beautiful, consistent icons
 
-2. **Install Dependencies:** Navigate to the project directory and install the required dependencies using your preferred package manager.
+## 📦 Project Structure
 
-`cd Fastplate
-npm install # or yarn install`
+```
+aram-nerfs-v2/
+├── src/
+│   ├── components/          # Reusable UI components
+│   │   ├── ui/             # Core UI components (Button, Card, Input, etc.)
+│   │   ├── ThemeToggle.tsx # Theme switching component
+│   │   ├── MobilePopup.tsx # Mobile-specific popup
+│   │   ├── AppDescription.tsx
+│   │   ├── Footer.tsx
+│   │   └── Logo.tsx
+│   ├── features/           # Feature-specific components
+│   │   └── champion/       # Champion search & display features
+│   ├── hooks/              # Custom React hooks
+│   │   ├── useChampionSearch.ts
+│   │   ├── useLocalStorage.ts
+│   │   └── useMobilePopup.ts
+│   ├── utils/              # Utility functions
+│   │   ├── champion.utils.ts
+│   │   ├── seo.utils.ts
+│   │   └── stat.utils.ts
+│   ├── types/              # TypeScript type definitions
+│   ├── constants/          # App constants
+│   └── App.tsx             # Main application component
+├── aram-balance-data.json  # ARAM balance data
+└── package.json
+```
 
-3. **Start Development Server:** Launch the development server and open the app in your browser.
+## 🎮 How It Works
 
-`npm start # or yarn start`
+1. **Search for a Champion** - Start typing any champion name in the search bar
+2. **View Balance Changes** - See all ARAM-specific adjustments at a glance
+3. **Understand the Impact** - Each stat shows percentage buffs (green) or nerfs (red)
+4. **Stay Updated** - The app displays the current patch version
 
-4. **Customize and Build:** Start building your application by adding components, configuring routes, and integrating with APIs. Fastplate provides a solid foundation, allowing you to focus on your application's unique features.
+### Example Stats Displayed
 
-![image](https://github.com/ethantaylan/fastplate-react/assets/59540282/3cfcaaf9-df73-45ac-a92e-28c856757451)
+- **Damage Dealt** - How much more/less damage your champion deals
+- **Damage Taken** - How much more/less damage your champion receives
+- **Healing** - Adjustments to healing output
+- **Shielding** - Adjustments to shield strength
+- **Ability Haste** - CDR modifications
+- **Mana/Energy Regen** - Resource regeneration changes
+- **Tenacity** - CC resistance adjustments
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 🎨 Design Philosophy
+
+**AM I NERFED?** is built with a focus on:
+
+- **Performance First** - Optimized for speed with minimal dependencies
+- **User Experience** - Intuitive interface that gets out of your way
+- **Clean Code** - Modular architecture with separation of concerns
+- **Type Safety** - Full TypeScript coverage for reliability
+- **Responsive Design** - Mobile-first approach that scales beautifully
+
+## 📝 Data Source
+
+ARAM balance data is maintained in `aram-balance-data.json` and updated regularly with each League of Legends patch. The data includes all champion-specific balance adjustments made exclusively for ARAM mode.
+
+## 🤝 Contributing
+
+Contributions are welcome! Whether it's:
+
+- 🐛 Bug reports
+- 💡 Feature requests
+- 📖 Documentation improvements
+- 🔧 Code contributions
+
+Feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 🙏 Acknowledgments
+
+- Champion data and balance information from Riot Games
+- Built with love for the League of Legends community
+- Inspired by the need for quick, accessible ARAM balance information
+
+---
+
+**Made with ⚡ by [Ethan Taylan](https://github.com/ethantaylan)**
+
+*Not affiliated with or endorsed by Riot Games. League of Legends and all related properties are trademarks of Riot Games.*
