@@ -1,11 +1,11 @@
 {
-  "patch": "14.24",
+  "patch": "15.20",
   "champions": [
     {
       "name": "Aatrox",
       "damageDealt": "105%",
       "damageTaken": "100%",
-      "passiveOther": "Tenacity increased by 20%."
+      "passiveOther": ""
     },
     {
       "name": "Ahri",
@@ -17,13 +17,13 @@
       "name": "Akali",
       "damageDealt": "105%",
       "damageTaken": "90%",
-      "passiveOther": "Energy regeneration increased by 20%. Tenacity increased by 20%"
+      "passiveOther": "Energy regeneration increased by 20%. Tenacity increased by 20%."
     },
     {
       "name": "Akshan",
       "damageDealt": "105%",
       "damageTaken": "95%",
-      "passiveOther": "Going Rogue: Scoundrel duration reduced to 10 seconds."
+      "passiveOther": "Going Rogue: Scoundrel duration changed to 10 seconds."
     },
     {
       "name": "Alistar",
@@ -65,25 +65,25 @@
       "name": "Ashe",
       "damageDealt": "105%",
       "damageTaken": "100%",
-      "passiveOther": "Total attack speed increased by 2.5%. W Cooldown : Cooldown increased to 18 / 17.5 / 17 / 16.5 / 16 seconds. R Cooldown: Cooldown increased to 110 / 90 / 70 seconds."
+      "passiveOther": "Total attack speed increased by 3%. Volley: Cooldown changed to 18 / 17.5 / 17 / 16.5 / 16 seconds."
     },
     {
       "name": "Aurelion Sol",
       "damageDealt": "100%",
       "damageTaken": "100%",
-      "passiveOther": "E ability has increased cooldown"
+      "passiveOther": "Singularity: Cooldown changed to 14 seconds."
     },
     {
       "name": "Azir",
       "damageDealt": "100%",
       "damageTaken": "95%",
-      "passiveOther": "Ability haste increased by 20. Total attack speed increased by 2.5%. Azir will start the game with one point already ranked in Arise!, allowing him to allocate the other two to his other abilities. Attack Speed Scaling: +0.025%, Ability Haste: +20%"
+      "passiveOther": "Ability haste increased by 20. Total attack speed increased by 2.5%. Arise!: Azir will start the game with one point already ranked in Arise!, allowing him to allocate the other two to his other abilities."
     },
     {
       "name": "Bard",
       "damageDealt": "115%",
       "damageTaken": "85%",
-      "passiveOther": "Healing done increased by 20%. Traveler's Call: Chime spawn rate changed to every 30 seconds instead of 50 seconds (initial spawn unchanged)."
+      "passiveOther": "Healing done increased by 20%. Traveler's Call: Chime spawn rate changed to every 30 seconds (initial spawn unchanged)."
     },
     {
       "name": "Bel'Veth",
@@ -143,7 +143,7 @@
       "name": "Corki",
       "damageDealt": "100%",
       "damageTaken": "90%",
-      "passiveOther": "Hextech Munitions: First package spawn time reduced to 5:00. Package cooldown reduced to 150 seconds."
+      "passiveOther": "Ability haste increased by 20."
     },
     {
       "name": "Darius",
@@ -209,7 +209,7 @@
       "name": "Fizz",
       "damageDealt": "105%",
       "damageTaken": "95%",
-      "passiveOther": "Tenacity increased by 20%."
+      "passiveOther": "Tenacity increased by 10%."
     },
     {
       "name": "Galio",
@@ -269,7 +269,7 @@
       "name": "Hwei",
       "damageDealt": "100%",
       "damageTaken": "100%",
-      "passiveOther": ""
+      "passiveOther": "Subject: Disaster - Devastating Fire, Severing Bolt, and Molten Fissure deal 80% damage to minions. Subject: Serenity - Stirring Lights deals 80% damage to minions. Subject: Torment - Grim Visage, Gaze of the Abyss, and Crushing Maw deal 80% damage to minions."
     },
     {
       "name": "Illaoi",
@@ -281,7 +281,7 @@
       "name": "Irelia",
       "damageDealt": "100%",
       "damageTaken": "100%",
-      "passiveOther": "Ability hasted increased by 20."
+      "passiveOther": "Ability haste increased by 20."
     },
     {
       "name": "Ivern",
@@ -293,7 +293,7 @@
       "name": "Janna",
       "damageDealt": "95%",
       "damageTaken": "105%",
-      "passiveOther": "Healing done reduced by 10%. Shielding done reduced by 5%."
+      "passiveOther": "Shielding done reduced by 5%. Healing done reduced by 10%. Howling Gale: Cooldown changed to 16 seconds."
     },
     {
       "name": "Jarvan IV",
@@ -419,7 +419,7 @@
       "name": "Lee Sin",
       "damageDealt": "105%",
       "damageTaken": "95%",
-      "passiveOther": "Shielding done increased by 20%. Healing done increased by 20%. Energy regeneration increased by 20%."
+      "passiveOther": "Shielding done increased by 20%. Healing done increased by 10%. Energy regeneration increased by 20%."
     },
     {
       "name": "Leona",
@@ -431,7 +431,7 @@
       "name": "Lillia",
       "damageDealt": "95%",
       "damageTaken": "105%",
-      "passiveOther": "E ability has increased cooldown"
+      "passiveOther": "Swirlseed: Cooldown changed to 18 seconds."
     },
     {
       "name": "Lissandra",
@@ -449,7 +449,7 @@
       "name": "Lulu",
       "damageDealt": "100%",
       "damageTaken": "100%",
-      "passiveOther": ""
+      "passiveOther": "Shielding done increased by 0%."
     },
     {
       "name": "Lux",
@@ -473,7 +473,7 @@
       "name": "Maokai",
       "damageDealt": "80%",
       "damageTaken": "110%",
-      "passiveOther": "Healing done reduced by 20%."
+      "passiveOther": "Healing done reduced by 10%."
     },
     {
       "name": "Master Yi",
@@ -485,7 +485,7 @@
       "name": "Milio",
       "damageDealt": "100%",
       "damageTaken": "100%",
-      "passiveOther": "Shielding done reduced by 10%. Healing done reduced by 5%."
+      "passiveOther": "Shielding done reduced by 10%. Healing done reduced by 5%. Ability haste reduced by 10."
     },
     {
       "name": "Miss Fortune",
@@ -515,7 +515,7 @@
       "name": "Nami",
       "damageDealt": "95%",
       "damageTaken": "105%",
-      "passiveOther": "Healing done reduced by 5%."
+      "passiveOther": "Healing done reduced by 10%."
     },
     {
       "name": "Nasus",
@@ -599,7 +599,7 @@
       "name": "Qiyana",
       "damageDealt": "115%",
       "damageTaken": "90%",
-      "passiveOther": "Tenacity increased by 20%. Terrashape: Howling Abyss grants the River Element."
+      "passiveOther": "Tenacity increased by 20%. Terrashape: Targeting a Health Relic on Howling Abyss grants the River Element."
     },
     {
       "name": "Quinn",
@@ -641,7 +641,7 @@
       "name": "Renekton",
       "damageDealt": "100%",
       "damageTaken": "100%",
-      "passiveOther": "Healing done increased by 20%."
+      "passiveOther": "Healing done increased by 5%."
     },
     {
       "name": "Rengar",
@@ -653,7 +653,7 @@
       "name": "Riven",
       "damageDealt": "105%",
       "damageTaken": "92%",
-      "passiveOther": ""
+      "passiveOther": "Shielding done increased by 0%."
     },
     {
       "name": "Rumble",
@@ -682,7 +682,7 @@
     {
       "name": "Senna",
       "damageDealt": "97%",
-      "damageTaken": "100%",
+      "damageTaken": "105%",
       "passiveOther": ""
     },
     {
@@ -713,25 +713,25 @@
       "name": "Shyvana",
       "damageDealt": "100%",
       "damageTaken": "95%",
-      "passiveOther": "Fury of the Dragonborn: Alternate Innate: Shyvana gains 1 bonus armor, 1 bonus magic resistance, and 0.05 bonus Fury regeneration whenever a siege or a canon minion dies within 1400 units range of her, or when she is healed by a health relic's area of effect on the enemy's side of the map. The minions' death does not grant increase if she is dead (but in range)."
+      "passiveOther": "Fury of the Dragonborn: Alternate Innate: Shyvana gains 1 bonus armor, 1 bonus magic resistance, and 0.05 bonus Fury regeneration whenever a siege or a canon minion dies within 1400 units range of her, or when she is healed by a health relic's area of effect on the enemy's side of the map. She will not gain bonuses if she is dead, even if in range."
     },
     {
       "name": "Singed",
       "damageDealt": "90%",
-      "damageTaken": "108%",
-      "passiveOther": "Bonus Movement Speed: 25% ⇒ 20%; Passive Cooldown: 8 ⇒ 10 seconds"
+      "damageTaken": "105%",
+      "passiveOther": ""
     },
     {
       "name": "Sion",
       "damageDealt": "90%",
       "damageTaken": "110%",
-      "passiveOther": "Shielding done reduced by 20%. Tenacity reduced by 20%. Ability haste reduced by 20. Glory in Death life steal reduced to 50%."
+      "passiveOther": "Ability haste reduced by 10. Glory in Death: Life steal changed to 50%. Soul Furnace: Health per lesser unit kill changed to 2. Health per greater unit kill changed to 8. Shield health ratio changed to 6 / 8 / 10 / 12 / 14% maximum health."
     },
     {
       "name": "Sivir",
       "damageDealt": "90%",
       "damageTaken": "105%",
-      "passiveOther": "Q cooldown increased"
+      "passiveOther": "Boomerang Blade: Cooldown changed to 14 / 13 / 12 / 11 / 10 seconds."
     },
     {
       "name": "Skarner",
@@ -773,7 +773,7 @@
       "name": "Syndra",
       "damageDealt": "105%",
       "damageTaken": "100%",
-      "passiveOther": "Ability haste increased by 15."
+      "passiveOther": "Ability haste increased by 5."
     },
     {
       "name": "Tahm Kench",
@@ -803,13 +803,13 @@
       "name": "Teemo",
       "damageDealt": "90%",
       "damageTaken": "110%",
-      "passiveOther": "Ability haste reduced by 20. Noxious Trap Deals 66% damage to minions (50% total)."
+      "passiveOther": "Ability haste reduced by 20. Noxious Trap: Deals 66% damage to minions (50% total). Maximum charges changed to 2 / 3 / 4."
     },
     {
       "name": "Thresh",
       "damageDealt": "100%",
       "damageTaken": "105%",
-      "passiveOther": "Damnation: Each collected soul counts as 2 from 1."
+      "passiveOther": "Damnation: Stacks per soul changed to 2."
     },
     {
       "name": "Tristana",
@@ -821,13 +821,13 @@
       "name": "Trundle",
       "damageDealt": "100%",
       "damageTaken": "105%",
-      "passiveOther": ""
+      "passiveOther": "Healing done increased by 0%."
     },
     {
       "name": "Tryndamere",
       "damageDealt": "110%",
       "damageTaken": "90%",
-      "passiveOther": "Healing done increased by 20%."
+      "passiveOther": "Healing done increased by 35%."
     },
     {
       "name": "Twisted Fate",
@@ -869,7 +869,7 @@
       "name": "Veigar",
       "damageDealt": "90%",
       "damageTaken": "110%",
-      "passiveOther": "Champion takedowns grant 3 stacks instead of 5."
+      "passiveOther": "Event Horizon: Cooldown changed to 23 / 21.5 / 20 / 18.5 / 17 seconds."
     },
     {
       "name": "Vel'Koz",
@@ -989,7 +989,7 @@
       "name": "Ziggs",
       "damageDealt": "87%",
       "damageTaken": "120%",
-      "passiveOther": "Ability haste reduced by 20. Short Fuse Damage to Structures reduced to 150%. Satchel Charge Tower execute threshold reduced."
+      "passiveOther": "Ability haste reduced by 20. Short Fuse: Damage to structures changed to 150%. Satchel Charge: Tower execute threshold changed to 12.5 / 15 / 17.5 / 20 / 22.5% of turret's maximum health."
     },
     {
       "name": "Zilean",
